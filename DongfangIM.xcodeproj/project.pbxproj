@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18F1FF931CF7F58900189595 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1FF921CF7F58900189595 /* main.m */; };
+		18F1FF961CF7F58900189595 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1FF951CF7F58900189595 /* AppDelegate.m */; };
+		18F1FF991CF7F58900189595 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1FF981CF7F58900189595 /* ViewController.m */; };
+		18F1FF9C1CF7F58900189595 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F1FF9A1CF7F58900189595 /* Main.storyboard */; };
+		18F1FF9E1CF7F58900189595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F1FF9D1CF7F58900189595 /* Assets.xcassets */; };
+		18F1FFA11CF7F58900189595 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F1FF9F1CF7F58900189595 /* LaunchScreen.storyboard */; };
+		18F1FFAC1CF7F58900189595 /* DongfangIMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1FFAB1CF7F58900189595 /* DongfangIMTests.m */; };
+		18F1FFB71CF7F58900189595 /* DongfangIMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F1FFB61CF7F58900189595 /* DongfangIMUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18F1FFA81CF7F58900189595 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F1FF861CF7F58900189595 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F1FF8D1CF7F58900189595;
+			remoteInfo = DongfangIM;
+		};
+		18F1FFB31CF7F58900189595 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18F1FF861CF7F58900189595 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18F1FF8D1CF7F58900189595;
+			remoteInfo = DongfangIM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18F1FF8E1CF7F58900189595 /* DongfangIM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DongfangIM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F1FF921CF7F58900189595 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18F1FF941CF7F58900189595 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18F1FF951CF7F58900189595 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18F1FF971CF7F58900189595 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18F1FF981CF7F58900189595 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18F1FF9B1CF7F58900189595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18F1FF9D1CF7F58900189595 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18F1FFA01CF7F58900189595 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18F1FFA21CF7F58900189595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F1FFA71CF7F58900189595 /* DongfangIMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DongfangIMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F1FFAB1CF7F58900189595 /* DongfangIMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DongfangIMTests.m; sourceTree = "<group>"; };
+		18F1FFAD1CF7F58900189595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F1FFB21CF7F58900189595 /* DongfangIMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DongfangIMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F1FFB61CF7F58900189595 /* DongfangIMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DongfangIMUITests.m; sourceTree = "<group>"; };
+		18F1FFB81CF7F58900189595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18F1FF8B1CF7F58900189595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F1FFA41CF7F58900189595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F1FFAF1CF7F58900189595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18F1FF851CF7F58900189595 = {
+			isa = PBXGroup;
+			children = (
+				18F1FF901CF7F58900189595 /* DongfangIM */,
+				18F1FFAA1CF7F58900189595 /* DongfangIMTests */,
+				18F1FFB51CF7F58900189595 /* DongfangIMUITests */,
+				18F1FF8F1CF7F58900189595 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18F1FF8F1CF7F58900189595 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18F1FF8E1CF7F58900189595 /* DongfangIM.app */,
+				18F1FFA71CF7F58900189595 /* DongfangIMTests.xctest */,
+				18F1FFB21CF7F58900189595 /* DongfangIMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18F1FF901CF7F58900189595 /* DongfangIM */ = {
+			isa = PBXGroup;
+			children = (
+				18F1FF941CF7F58900189595 /* AppDelegate.h */,
+				18F1FF951CF7F58900189595 /* AppDelegate.m */,
+				18F1FF971CF7F58900189595 /* ViewController.h */,
+				18F1FF981CF7F58900189595 /* ViewController.m */,
+				18F1FF9A1CF7F58900189595 /* Main.storyboard */,
+				18F1FF9D1CF7F58900189595 /* Assets.xcassets */,
+				18F1FF9F1CF7F58900189595 /* LaunchScreen.storyboard */,
+				18F1FFA21CF7F58900189595 /* Info.plist */,
+				18F1FF911CF7F58900189595 /* Supporting Files */,
+			);
+			path = DongfangIM;
+			sourceTree = "<group>";
+		};
+		18F1FF911CF7F58900189595 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18F1FF921CF7F58900189595 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18F1FFAA1CF7F58900189595 /* DongfangIMTests */ = {
+			isa = PBXGroup;
+			children = (
+				18F1FFAB1CF7F58900189595 /* DongfangIMTests.m */,
+				18F1FFAD1CF7F58900189595 /* Info.plist */,
+			);
+			path = DongfangIMTests;
+			sourceTree = "<group>";
+		};
+		18F1FFB51CF7F58900189595 /* DongfangIMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				18F1FFB61CF7F58900189595 /* DongfangIMUITests.m */,
+				18F1FFB81CF7F58900189595 /* Info.plist */,
+			);
+			path = DongfangIMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18F1FF8D1CF7F58900189595 /* DongfangIM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F1FFBB1CF7F58900189595 /* Build configuration list for PBXNativeTarget "DongfangIM" */;
+			buildPhases = (
+				18F1FF8A1CF7F58900189595 /* Sources */,
+				18F1FF8B1CF7F58900189595 /* Frameworks */,
+				18F1FF8C1CF7F58900189595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DongfangIM;
+			productName = DongfangIM;
+			productReference = 18F1FF8E1CF7F58900189595 /* DongfangIM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18F1FFA61CF7F58900189595 /* DongfangIMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F1FFBE1CF7F58900189595 /* Build configuration list for PBXNativeTarget "DongfangIMTests" */;
+			buildPhases = (
+				18F1FFA31CF7F58900189595 /* Sources */,
+				18F1FFA41CF7F58900189595 /* Frameworks */,
+				18F1FFA51CF7F58900189595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F1FFA91CF7F58900189595 /* PBXTargetDependency */,
+			);
+			name = DongfangIMTests;
+			productName = DongfangIMTests;
+			productReference = 18F1FFA71CF7F58900189595 /* DongfangIMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18F1FFB11CF7F58900189595 /* DongfangIMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18F1FFC11CF7F58900189595 /* Build configuration list for PBXNativeTarget "DongfangIMUITests" */;
+			buildPhases = (
+				18F1FFAE1CF7F58900189595 /* Sources */,
+				18F1FFAF1CF7F58900189595 /* Frameworks */,
+				18F1FFB01CF7F58900189595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18F1FFB41CF7F58900189595 /* PBXTargetDependency */,
+			);
+			name = DongfangIMUITests;
+			productName = DongfangIMUITests;
+			productReference = 18F1FFB21CF7F58900189595 /* DongfangIMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18F1FF861CF7F58900189595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = com.pushtest;
+				TargetAttributes = {
+					18F1FF8D1CF7F58900189595 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					18F1FFA61CF7F58900189595 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 18F1FF8D1CF7F58900189595;
+					};
+					18F1FFB11CF7F58900189595 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 18F1FF8D1CF7F58900189595;
+					};
+				};
+			};
+			buildConfigurationList = 18F1FF891CF7F58900189595 /* Build configuration list for PBXProject "DongfangIM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18F1FF851CF7F58900189595;
+			productRefGroup = 18F1FF8F1CF7F58900189595 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18F1FF8D1CF7F58900189595 /* DongfangIM */,
+				18F1FFA61CF7F58900189595 /* DongfangIMTests */,
+				18F1FFB11CF7F58900189595 /* DongfangIMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18F1FF8C1CF7F58900189595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F1FFA11CF7F58900189595 /* LaunchScreen.storyboard in Resources */,
+				18F1FF9E1CF7F58900189595 /* Assets.xcassets in Resources */,
+				18F1FF9C1CF7F58900189595 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F1FFA51CF7F58900189595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F1FFB01CF7F58900189595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18F1FF8A1CF7F58900189595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F1FF991CF7F58900189595 /* ViewController.m in Sources */,
+				18F1FF961CF7F58900189595 /* AppDelegate.m in Sources */,
+				18F1FF931CF7F58900189595 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F1FFA31CF7F58900189595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F1FFAC1CF7F58900189595 /* DongfangIMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F1FFAE1CF7F58900189595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18F1FFB71CF7F58900189595 /* DongfangIMUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18F1FFA91CF7F58900189595 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F1FF8D1CF7F58900189595 /* DongfangIM */;
+			targetProxy = 18F1FFA81CF7F58900189595 /* PBXContainerItemProxy */;
+		};
+		18F1FFB41CF7F58900189595 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18F1FF8D1CF7F58900189595 /* DongfangIM */;
+			targetProxy = 18F1FFB31CF7F58900189595 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18F1FF9A1CF7F58900189595 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F1FF9B1CF7F58900189595 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18F1FF9F1CF7F58900189595 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18F1FFA01CF7F58900189595 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18F1FFB91CF7F58900189595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18F1FFBA1CF7F58900189595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18F1FFBC1CF7F58900189595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DongfangIM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pushtest.DongfangIM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18F1FFBD1CF7F58900189595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DongfangIM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pushtest.DongfangIM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18F1FFBF1CF7F58900189595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DongfangIMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pushtest.DongfangIMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DongfangIM.app/DongfangIM";
+			};
+			name = Debug;
+		};
+		18F1FFC01CF7F58900189595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DongfangIMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pushtest.DongfangIMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DongfangIM.app/DongfangIM";
+			};
+			name = Release;
+		};
+		18F1FFC21CF7F58900189595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DongfangIMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pushtest.DongfangIMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DongfangIM;
+			};
+			name = Debug;
+		};
+		18F1FFC31CF7F58900189595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DongfangIMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pushtest.DongfangIMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DongfangIM;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18F1FF891CF7F58900189595 /* Build configuration list for PBXProject "DongfangIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F1FFB91CF7F58900189595 /* Debug */,
+				18F1FFBA1CF7F58900189595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18F1FFBB1CF7F58900189595 /* Build configuration list for PBXNativeTarget "DongfangIM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F1FFBC1CF7F58900189595 /* Debug */,
+				18F1FFBD1CF7F58900189595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18F1FFBE1CF7F58900189595 /* Build configuration list for PBXNativeTarget "DongfangIMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F1FFBF1CF7F58900189595 /* Debug */,
+				18F1FFC01CF7F58900189595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18F1FFC11CF7F58900189595 /* Build configuration list for PBXNativeTarget "DongfangIMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18F1FFC21CF7F58900189595 /* Debug */,
+				18F1FFC31CF7F58900189595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18F1FF861CF7F58900189595 /* Project object */;
+}
